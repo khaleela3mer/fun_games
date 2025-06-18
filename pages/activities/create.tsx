@@ -1,8 +1,8 @@
 import { useState } from "react";
-import TemplatePicker, { Template } from "@/components/builder/TemplatePicker";
-import QuizForm from "@/components/builder/QuizForm";
-import MatchingForm from "@/components/builder/MatchingForm";
-import ClozeForm from "@/components/builder/ClozeForm";
+import TemplatePicker, { Template } from "../../components/builder/TemplatePicker";
+import QuizForm from "../../components/builder/QuizForm";
+import MatchingForm from "../../components/builder/MatchingForm";
+import ClozeForm from "../../components/builder/ClozeForm";
 
 export default function CreateActivity() {
   const [selectedTemplate, setSelectedTemplate] = useState<Template>("quiz");
